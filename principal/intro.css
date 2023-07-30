@@ -1,0 +1,68 @@
+/* Cascading Style Sheet
+Códigos 
+
+
+/*
+
+Adicionando propriedades ao documento geral
+*{
+    margin: 0;
+  }
+  
+adicionando propriedades a uma id  
+  #container{
+    width: 400px;
+    
+  }
+
+Adicionando propriedades a uma classe
+  .m-40{
+    margin:40px;
+  }
+
+Agrupando propriedades a mais de uma tag 
+  h1, h2{
+    color:blue;
+    font-size: 50px;
+    background-color: gray;
+  }
+
+
+/*
+  h1 {
+    border: 1px solid red;
+    margin: 200px;
+    padding: 60px;
+    text-align: center;
+  }
+
+  Box model elementos HTML são como caixas tem tamanho margem interna e margem externa e pode ser modelado com css.
+  */
+
+  /*Como adicionar CSS em documento HTML
+  
+  ## InLine
+  ## <style>
+  ## <link>
+  ## @import
+  
+  
+  */
+
+  h1 {
+    border: 1px solid red; /* borda */
+    margin: 50px; /* Espaço externo */
+    padding: 50px; /* Espaço interno */
+  }
+
+  #p1 {
+    border: 1px solid green;
+  }
+
+  #p2 {
+    border: 1px solid purple;
+  }
+  
+  .menu {
+    border: 3px solid blue;
+  }
